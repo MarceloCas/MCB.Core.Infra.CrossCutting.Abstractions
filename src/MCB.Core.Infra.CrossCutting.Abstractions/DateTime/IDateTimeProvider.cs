@@ -2,6 +2,5 @@
 
 public interface IDateTimeProvider
 {
-    void ChangeGetDateCustomFunction(Func<DateTimeOffset>? getDateCustomFunction);
     DateTimeOffset GetDate();
 }
